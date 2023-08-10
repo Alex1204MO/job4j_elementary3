@@ -4,14 +4,13 @@ public class DummiBot {
     public static String answer(String question) {
         String rsl = "I don't know. Please, ask another question.";
         if ("Hi, Bot.".equals(question)) {
-            /* заменить ... на правильный ответ rsl = "ответ по заданию". */
             return rsl = "Hi, SmartAss.";
-        } else if ("Bye.".equals(question)) { /* заменить ... на проверку, известен ли боту этот вопрос и он знает как на него ответить. */
-            /* заменить ... на правильный ответ rsl = "ответ по заданию". */
+        } else if ("Bye.".equals(question)) {
             return rsl = "See you later.";
-        } else if ("Can you add two plus two?".equals(question)) { /* заменить ... на проверку, известен ли боту этот вопрос и он знает как на него ответить. */
-            /* заменить ... на правильный ответ rsl = "ответ по заданию". */}
+        } else if ("Can you add two plus two?".equals(question)) {
             return rsl = "I don't know. Please, ask another question.";
+        }
+        return rsl;
         }
 
 
