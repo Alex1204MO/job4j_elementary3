@@ -5,10 +5,8 @@ public class Max {
         int result = left > right ? left : right;
         return result;
     }
-
-        public static void main(String[] args) {
-            int result = Max.max(8,5);
-            System.out.println(result);
-        }
-
+    public static void main(String[] args) {
+        int result = Max.max(8,10);
+        System.out.println(result);
+    }
 }
